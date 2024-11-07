@@ -4,5 +4,6 @@ This repository contains scripts and programs written in a variety of languages,
 - Single Byte XOR Decoder (Python)
 - Repeating Key XOR Decoder (Python)
 - DNS Client and Server (Java)
+- Querying Rugs and Movies DB (SQL, PLpgSQL, Python)
 - PacMan simulator (MIPS Assembly)
 
