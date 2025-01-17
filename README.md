@@ -7,5 +7,6 @@ This repository contains scripts and programs written in a variety of languages,
 - AES-128 in ECB Cipher & Decoder (Python)
 - AES-128 ECB/CBC Oracle (Python)
 - Querying Rugs and Movies DB (SQL, PLpgSQL, Python)
+- Removing Bugholes in Concrete Images (Python)
 - PacMan simulator (MIPS Assembly)
 
