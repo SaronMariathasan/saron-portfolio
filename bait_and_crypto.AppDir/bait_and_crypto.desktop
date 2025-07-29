@@ -1,8 +1,6 @@
 [Desktop Entry]
-Name=Bait and Crypto
-Comment=Educational security demonstration
-Exec=AppRun
-Icon=icon
-Terminal=false
 Type=Application
+Name=Bait and Crypto
+Exec=bait_and_crypto
+Icon=icon
 Categories=Utility;
