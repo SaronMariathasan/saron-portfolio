@@ -83,6 +83,8 @@ int doDecryptDir(char dirname[], struct dirent *dp, const unsigned char key[cryp
     closedir(dir);
 }
 
+// code adapted from libsodium sample code available here:
+// https://doc.libsodium.org/secret-key_cryptography/secretstream#file-encryption-example-code
 int decrypt(char *src_file, char *dest_file, const unsigned char key[crypto_secretstream_xchacha20poly1305_KEYBYTES])
 {
     // declare vars

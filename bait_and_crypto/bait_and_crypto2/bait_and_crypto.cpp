@@ -118,11 +118,13 @@ int docToText(char *filename, char *raw_pt_file)
     return 0;
 }
 
+// I acknowledge the use of AI to assist in the implementation of the traverseXml function,
+// namely to understand which nodes contained the document text and implmenent recursion.
 void traverseXml(xmlNode *node, FILE *raw_pt_file)
 {
     while (node)
     {
-        // only extract certain nodes in xml tree
+        // only extract certain nodes in xml tree.
         if (node->type == XML_ELEMENT_NODE && xmlStrcmp(node->name, BAD_CAST "t") == 0)
         {
             if (node->children && node->children->content)
@@ -203,7 +205,8 @@ int doEncryptDir(char dirname[], struct dirent *dp, const unsigned char key[cryp
     closedir(dir);
 }
 
-// code adapted from libsodium sample code
+// code adapted from libsodium sample code available here:
+// https://doc.libsodium.org/secret-key_cryptography/secretstream#file-encryption-example-code
 
 int encrypt(char *src_file, char *dest_file, const unsigned char key[crypto_secretstream_xchacha20poly1305_KEYBYTES])
 {
