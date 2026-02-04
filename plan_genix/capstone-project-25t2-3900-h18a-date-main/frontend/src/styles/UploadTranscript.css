@@ -1,0 +1,140 @@
+/* Layout styling for transcript upload page */
+.upload-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  padding: 4rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  flex-wrap: wrap;
+}
+
+.upload-left {
+  flex: 1;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.upload-right {
+  flex: 1;
+  max-width: 400px;
+  background-color: rgba(251, 146, 60, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+/* File upload drop zone */
+.drop-zone {
+  outline: 2px dashed #fb923c;
+  outline-offset: -6px;
+  border: none;
+  background-color: rgba(251, 146, 60, 0.05);
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drop-zone svg {
+  margin-bottom: 1rem;
+}
+
+.browse-link {
+  color: #fb923c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.browse-link:hover {
+  color: #ea580c;
+}
+
+.formats {
+  margin-top: 0.5rem;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+/* File preview box */
+.file-preview-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  width: 100%;
+  gap: 1rem;
+}
+
+/* Upload button style */
+.upload-btn {
+  margin-top: 2rem;
+  background-color: #fb923c;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(251, 146, 60, 0.3);
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 100%;
+}
+
+.upload-btn:hover:not(:disabled) {
+  background-color: #f97316;
+}
+
+.upload-btn:disabled {
+  background-color: #fcd9b6;
+  cursor: not-allowed;
+}
+
+.success-message {
+  margin-top: 1rem;
+  color: #22c55e;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* List of upload steps */
+.steps-list {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  list-style: decimal inside;
+  padding-left: 0;
+}
+
+.tip-text {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #6b7280;
+}

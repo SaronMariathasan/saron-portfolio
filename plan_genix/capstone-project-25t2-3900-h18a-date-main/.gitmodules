@@ -1,0 +1,3 @@
+[submodule "handbook-scraper"]
+	path = backend/src/handbook-scraper
+	url = git@github.com:csesoc/handbook-scraper.git

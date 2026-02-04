@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "5005:5005"
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE=http://backend:5005
+    depends_on:
+      - backend

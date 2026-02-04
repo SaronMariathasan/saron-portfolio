@@ -1,0 +1,581 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "myPlan++ - OpenAPI 3.0",
+    "description": "UNSW Course Enrollment & Advice Engine.",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version": "1.0.0"
+  },
+  "tags": [
+    {
+      "name": "info",
+      "description": "Acess to further information about programs, specialisations and courses."
+    },
+    {
+      "name": "plan",
+      "description": "Generating and testing of program plans."
+    },
+    {
+      "name": "upload",
+      "description": "Uploading of transcripts and previous plans."
+    }
+  ],
+  "paths": {
+    "/info/course/{courseCode}": {
+      "get": {
+        "tags": [
+          "info"
+        ],
+        "summary": "Gets further information on a course.",
+        "description": "Returns course information when given a valid course code.",
+        "parameters": [
+          {
+            "name": "courseCode",
+            "in": "path",
+            "description": "Code of course being requested.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Course"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Course not found.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/info/program/{programCode}": {
+      "get": {
+        "tags": [
+          "info"
+        ],
+        "summary": "Gets further information on a program.",
+        "description": "Returns program information when given a valid program code.",
+        "parameters": [
+          {
+            "name": "programCode",
+            "in": "path",
+            "description": "Code of program being requested.",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Program"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Program not found.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/plan/generate": {
+      "post": {
+        "tags": [
+          "plan"
+        ],
+        "summary": "Generate a plan.",
+        "description": "Returns a plan when given a valid form input.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Plan"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Plan generation failed.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/plan/test": {
+      "post": {
+        "tags": [
+          "plan"
+        ],
+        "summary": "Validate an existing plan.",
+        "description": "Tests if a plan passes all necessary prequisites/rules and is therefore valid.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Plan"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "isPlanValid": {
+                      "type": "boolean",
+                      "example": "true"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Plan testing failed.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/upload/statement": {
+      "post": {
+        "tags": [
+          "upload"
+        ],
+        "summary": "Upload an academic transcript.",
+        "description": "Returns a program plan after analysing uploaded transcript.",
+        "requestBody": {
+          "$ref": "#/components/requestBodies/PDF"
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Plan"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid transcript upload attempted.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/upload/previousPlan": {
+      "post": {
+        "tags": [
+          "upload"
+        ],
+        "summary": "Upload a previous plan.",
+        "description": "Analyses a previously generated plan saved as a pdf, before returning a plan object.",
+        "requestBody": {
+          "$ref": "#/components/requestBodies/PDF"
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Plan"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid plan upload attempted.",
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EnrolmentConditions": {
+        "type": "object",
+        "properties": {
+          "courses": {
+            "type": "array",
+            "description": "Required prerequisite courses and their respective prerequisite hurdle marks",
+            "items": {
+              "$ref": "#/components/schemas/Prerequisite"
+            }
+          },
+          "program": {
+            "$ref": "#/components/schemas/ProgramCode"
+          },
+          "completedUOC": {
+            "type": "integer",
+            "description": "Required minimum complete UOC",
+            "example": 102
+          }
+        }
+      },
+      "Prerequisite": {
+        "type": "object",
+        "properties": {
+          "course": {
+            "$ref": "#/components/schemas/CourseCode"
+          },
+          "hurdleMark": {
+            "description": "Hurdle mark, set to 50 for a regular prerequisite, otherwise specified.",
+            "type": "integer",
+            "example": 50
+          }
+        }
+      },
+      "Delivery": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "example": "In-person",
+            "enum": [
+              "In-person",
+              "Fully online"
+            ]
+          },
+          "format": {
+            "type": "string",
+            "example": "Standard (usually weekly or fortnightly)"
+          },
+          "contactHours": {
+            "type": "integer",
+            "example": 10
+          }
+        }
+      },
+      "SemesterTimePeriod": {
+        "description": "Time at which the semester is taking place.",
+        "type": "string",
+        "pattern": "^(T[123]|S[12]) \\d{4}$",
+        "example": "T2 2025"
+      },
+      "Plan": {
+        "type": "object",
+        "properties": {
+          "program": {
+            "$ref": "#/components/schemas/Program"
+          },
+          "commencingSemester": {
+            "$ref": "#/components/schemas/SemesterTimePeriod"
+          },
+          "semesters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlannedSemester"
+            }
+          }
+        }
+      },
+      "PlannedSemester": {
+        "type": "object",
+        "properties": {
+          "timePeriod": {
+            "$ref": "#/components/schemas/SemesterTimePeriod"
+          },
+          "courses": {
+            "description": "An array of courses for the current semester.",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Course"
+            }
+          }
+        }
+      },
+      "PlanRequest": {
+        "type": "object",
+        "properties": {
+          "programCode": {
+            "$ref": "#/components/schemas/ProgramCode"
+          },
+          "commencingSemester": {
+            "$ref": "#/components/schemas/SemesterTimePeriod"
+          },
+          "specialisation": {
+            "$ref": "#/components/schemas/SpecialisationCode"
+          },
+          "studyLoad": {
+            "description": "Number of courses taken each semester.",
+            "type": "integer",
+            "example": 3
+          },
+          "completedCourses": {
+            "description": "Courses already completed by the user.",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CourseCode"
+            }
+          },
+          "planPreference": {
+            "description": "Desired pace of study, does the user wish to complete all core courses as soon as possible?",
+            "type": "string",
+            "example": "fast",
+            "enum": [
+              "fast",
+              "balanced"
+            ]
+          }
+        }
+      },
+      "FacultyName": {
+        "type": "string",
+        "example": "Engineering"
+      },
+      "ProgramCode": {
+        "type": "integer",
+        "pattern": "^\\d{4}$",
+        "example": 3778
+      },
+      "SpecialisationCode": {
+        "type": "string",
+        "example": "COMPA1"
+      },
+      "CourseCode": {
+        "type": "string",
+        "pattern": "^[A-Z]{4}\\d{4}$",
+        "example": "COMP3900"
+      },
+      "Program": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "example": "Computer Science"
+          },
+          "code": {
+            "$ref": "#/components/schemas/ProgramCode"
+          },
+          "UOC": {
+            "type": "integer",
+            "example": 6
+          },
+          "studyLevel": {
+            "type": "string",
+            "example": "undergraduate",
+            "enum": [
+              "undergraduate",
+              "postgraduate"
+            ]
+          },
+          "faculty": {
+            "$ref": "#/components/schemas/FacultyName"
+          },
+          "duration": {
+            "type": "string",
+            "example": "5 Year(s)"
+          },
+          "overview": {
+            "type": "string",
+            "example": "Computer Science involves the study of the design..."
+          },
+          "structureSummary": {
+            "type": "string",
+            "example": "Computer Science involves the study of the design..."
+          }
+        }
+      },
+      "Specialisation": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "$ref": "#/components/schemas/SpecialisationCode"
+          }
+        }
+      },
+      "Course": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "example": "Computer Science Project"
+          },
+          "code": {
+            "$ref": "#/components/schemas/CourseCode"
+          },
+          "UOC": {
+            "type": "integer",
+            "example": 6
+          },
+          "gen_ed": {
+            "type": "boolean",
+            "example": false
+          },
+          "level": {
+            "type": "integer",
+            "example": 3
+          },
+          "description": {
+            "type": "string",
+            "example": "<p>A capstone software project. Students work in teams to define...</p>"
+          },
+          "studyLevel": {
+            "type": "string",
+            "example": "undergraduate",
+            "enum": [
+              "undergraduate",
+              "postgraduate"
+            ]
+          },
+          "school": {
+            "type": "string",
+            "example": "School of Computer Science and Engineering"
+          },
+          "faculty": {
+            "$ref": "#/components/schemas/FacultyName"
+          },
+          "campus": {
+            "type": "string",
+            "example": "Sydney",
+            "enum": [
+              "Sydney",
+              "Paddington",
+              "UNSW Canberra"
+            ]
+          },
+          "terms": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": "Term 1",
+              "enum": [
+                "Term 1",
+                "Term 2",
+                "Term 3"
+              ]
+            }
+          },
+          "calendar": {
+            "type": "string",
+            "example": "3+"
+          },
+          "fieldOfEducation": {
+            "type": "string",
+            "example": "020100 Computer Science"
+          },
+          "attributes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "equivalents": {
+            "type": "objecct"
+          },
+          "exclusions": {
+            "type": "objecct"
+          },
+          "enrolment_rules": {
+            "type": "string",
+            "example": "Prerequisite: COMP1531, and COMP2521 or COMP1927, and enrolled in a BSc Computer Science major with completion of 102 uoc.<br/><br/>"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string",
+            "example": "Invalid course code"
+          }
+        },
+        "required": [
+          "message"
+        ]
+      }
+    },
+    "requestBodies": {
+      "PDF": {
+        "description": "PDF to be uploaded.",
+        "content": {
+          "application/pdf": {
+            "schema": {
+              "type": "string",
+              "example": "(Binary Data)"
+            }
+          }
+        }
+      },
+      "CourseCode": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "string",
+              "example": "COMP3900"
+            }
+          }
+        }
+      },
+      "ProgramCode": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "integer",
+              "example": 3778
+            }
+          }
+        }
+      }
+    },
+    "responses": {
+      "Error": {
+        "description": "Unexpected error",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    }
+  }
+}

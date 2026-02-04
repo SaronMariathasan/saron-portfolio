@@ -1,0 +1,674 @@
+[
+  {
+    "code": "3053",
+    "label": "3053 | Biotechnology (Honours)"
+  },
+  {
+    "code": "3061",
+    "label": "3061 | Food Science (Honours)"
+  },
+  {
+    "code": "3131",
+    "label": "3131 | Materials Science and Engineering (Honours)"
+  },
+  {
+    "code": "3132",
+    "label": "3132 | Materials Science and Engineering (Honours) / Engineering Science"
+  },
+  {
+    "code": "3133",
+    "label": "3133 | Materials Science and Engineering (Honours) / Biomedical Engineering"
+  },
+  {
+    "code": "3134",
+    "label": "3134 | Materials Science and Engineering (Honours) / Commerce"
+  },
+  {
+    "code": "3154",
+    "label": "3154 | Actuarial Studies / Science"
+  },
+  {
+    "code": "3155",
+    "label": "3155 | Actuarial Studies / Commerce"
+  },
+  {
+    "code": "3181",
+    "label": "3181 | Vision Science"
+  },
+  {
+    "code": "3182",
+    "label": "3182 | Vision Science / Clinical Optometry"
+  },
+  {
+    "code": "3256",
+    "label": "3256 | Interior Architecture (Honours)"
+  },
+  {
+    "code": "3261",
+    "label": "3261 | Architectural Studies"
+  },
+  {
+    "code": "3264",
+    "label": "3264 | Architecture (UNSW-Tongji)"
+  },
+  {
+    "code": "3325",
+    "label": "3325 | Social Sciences"
+  },
+  {
+    "code": "3332",
+    "label": "3332 | Construction Management and Property"
+  },
+  {
+    "code": "3341",
+    "label": "3341 | Media"
+  },
+  {
+    "code": "3342",
+    "label": "3342 | Design / Media"
+  },
+  {
+    "code": "3343",
+    "label": "3343 | Fine Arts / Media"
+  },
+  {
+    "code": "3344",
+    "label": "3344 | Media / Arts"
+  },
+  {
+    "code": "3345",
+    "label": "3345 | Media / Social Sciences"
+  },
+  {
+    "code": "3362",
+    "label": "3362 | City Planning (Honours)"
+  },
+  {
+    "code": "3381",
+    "label": "3381 | Landscape Architecture (Hons)"
+  },
+  {
+    "code": "3409",
+    "label": "3409 | Arts"
+  },
+  {
+    "code": "3422",
+    "label": "3422 | Criminology & Criminal Justice"
+  },
+  {
+    "code": "3435",
+    "label": "3435 | Psychological Science"
+  },
+  {
+    "code": "3462",
+    "label": "3462 | Commerce / Education (Secondary)"
+  },
+  {
+    "code": "3478",
+    "label": "3478 | Politics, Philosophy and Economics"
+  },
+  {
+    "code": "3502",
+    "label": "3502 | Commerce"
+  },
+  {
+    "code": "3521",
+    "label": "3521 | Commerce / Economics"
+  },
+  {
+    "code": "3523",
+    "label": "3523 | Advanced Mathematics (Honours) / Commerce"
+  },
+  {
+    "code": "3529",
+    "label": "3529 | Commerce / Science"
+  },
+  {
+    "code": "3543",
+    "label": "3543 | Economics"
+  },
+  {
+    "code": "3554",
+    "label": "3554 | Commerce (Co-op)"
+  },
+  {
+    "code": "3558",
+    "label": "3558 | Commerce (International)"
+  },
+  {
+    "code": "3563",
+    "label": "3563 | Economics / Science"
+  },
+  {
+    "code": "3564",
+    "label": "3564 | Economics / Advanced Mathematics (Honours)"
+  },
+  {
+    "code": "3565",
+    "label": "3565 | Commerce (Co-op) (Honours)"
+  },
+  {
+    "code": "3566",
+    "label": "3566 | Economics / Advanced Science (Honours)"
+  },
+  {
+    "code": "3573",
+    "label": "3573 | Commerce / Arts"
+  },
+  {
+    "code": "3574",
+    "label": "3574 | Economics / Arts"
+  },
+  {
+    "code": "3584",
+    "label": "3584 | Commerce / Information Systems"
+  },
+  {
+    "code": "3586",
+    "label": "3586 | Actuarial Studies"
+  },
+  {
+    "code": "3587",
+    "label": "3587 | Actuarial Studies (Co op)"
+  },
+  {
+    "code": "3588",
+    "label": "3588 | Actuarial Studies / Economics"
+  },
+  {
+    "code": "3589",
+    "label": "3589 | Actuarial Studies / Advanced Mathematics (Honours)"
+  },
+  {
+    "code": "3593",
+    "label": "3593 | Commerce / Advanced Science (Honours)"
+  },
+  {
+    "code": "3597",
+    "label": "3597 | Commerce / Design"
+  },
+  {
+    "code": "3598",
+    "label": "3598 | Commerce / Media"
+  },
+  {
+    "code": "3599",
+    "label": "3599 | Commerce / Fine Arts"
+  },
+  {
+    "code": "3632",
+    "label": "3632 | Psychology (Honours)"
+  },
+  {
+    "code": "3635",
+    "label": "3635 | Engineering (Civil Eng w Arch) (Honours)"
+  },
+  {
+    "code": "3671",
+    "label": "3671 | Actuarial Studies / Information Systems"
+  },
+  {
+    "code": "3673",
+    "label": "3673 | Economics / Computer Science"
+  },
+  {
+    "code": "3674",
+    "label": "3674 | Actuarial Studies / Computer Science"
+  },
+  {
+    "code": "3706",
+    "label": "3706 | Engineering Science"
+  },
+  {
+    "code": "3707",
+    "label": "3707 | Engineering (Honours)"
+  },
+  {
+    "code": "3733",
+    "label": "3733 | Engineering Science / Science"
+  },
+  {
+    "code": "3734",
+    "label": "3734 | Engineering Science / Commerce"
+  },
+  {
+    "code": "3736",
+    "label": "3736 | Engineering (Honours) / Engineering"
+  },
+  {
+    "code": "3738",
+    "label": "3738 | Engineering Science / Computer Science"
+  },
+  {
+    "code": "3761",
+    "label": "3761 | Advanced Mathematics (Honours) / Engineering (Honours)"
+  },
+  {
+    "code": "3762",
+    "label": "3762 | Advanced Science (Honours) / Engineering (Honours)"
+  },
+  {
+    "code": "3764",
+    "label": "3764 | Engineering (Honours) / Commerce"
+  },
+  {
+    "code": "3765",
+    "label": "3765 | Engineering (Honours) / Law"
+  },
+  {
+    "code": "3767",
+    "label": "3767 | Engineering (Honours) / Science"
+  },
+  {
+    "code": "3768",
+    "label": "3768 | Engineering (Honours) / Biomedical Engineering"
+  },
+  {
+    "code": "3773",
+    "label": "3773 | Engineering (Honours) / Engineering Science"
+  },
+  {
+    "code": "3775",
+    "label": "3775 | Surveying"
+  },
+  {
+    "code": "3776",
+    "label": "3776 | Engineering (Honours) / Surveying"
+  },
+  {
+    "code": "3778",
+    "label": "3778 | Computer Science"
+  },
+  {
+    "code": "3781",
+    "label": "3781 | Advanced Mathematics (Honours) / Computer Science"
+  },
+  {
+    "code": "3782",
+    "label": "3782 | Advanced Science (Honours) / Computer Science"
+  },
+  {
+    "code": "3783",
+    "label": "3783 | Computer Science / Arts"
+  },
+  {
+    "code": "3784",
+    "label": "3784 | Commerce / Computer Science"
+  },
+  {
+    "code": "3785",
+    "label": "3785 | Engineering (Honours) / Computer Science"
+  },
+  {
+    "code": "3786",
+    "label": "3786 | Computer Science / Law"
+  },
+  {
+    "code": "3789",
+    "label": "3789 | Science / Computer Science"
+  },
+  {
+    "code": "3792",
+    "label": "3792 | Computer Science / Fine Arts"
+  },
+  {
+    "code": "3793",
+    "label": "3793 | Fine Arts / Engineering (Honours)"
+  },
+  {
+    "code": "3805",
+    "label": "3805 | Medicine"
+  },
+  {
+    "code": "3835",
+    "label": "3835 | Commerce / Aviation (Management)"
+  },
+  {
+    "code": "3856",
+    "label": "3856 | Medicine / Arts"
+  },
+  {
+    "code": "3880",
+    "label": "3880 | International Public Health"
+  },
+  {
+    "code": "3890",
+    "label": "3890 | Applied Exercise Science"
+  },
+  {
+    "code": "3891",
+    "label": "3891 | Nutrition"
+  },
+  {
+    "code": "3892",
+    "label": "3892 | Pharmaceutical Medicine"
+  },
+  {
+    "code": "3893",
+    "label": "3893 | Exercise Science"
+  },
+  {
+    "code": "3894",
+    "label": "3894 | Nutrition / Dietetics and Food Innovation"
+  },
+  {
+    "code": "3895",
+    "label": "3895 | Pharmaceutical Medicine / Pharmacy"
+  },
+  {
+    "code": "3896",
+    "label": "3896 | Exercise Science / Physiotherapy and Exercise Physiology "
+  },
+  {
+    "code": "3897",
+    "label": "3897 | Applied Exercise Science / Clinical Exercise Physiology"
+  },
+  {
+    "code": "3921",
+    "label": "3921 | Science / Fine Arts"
+  },
+  {
+    "code": "3922",
+    "label": "3922 | Advanced Science (Honours) / Fine Arts"
+  },
+  {
+    "code": "3923",
+    "label": "3923 | Science / Social Sciences"
+  },
+  {
+    "code": "3924",
+    "label": "3924 | Advanced Science (Honours) / Social Sciences"
+  },
+  {
+    "code": "3925",
+    "label": "3925 | Science and Business"
+  },
+  {
+    "code": "3947",
+    "label": "3947 | Science / Arts"
+  },
+  {
+    "code": "3948",
+    "label": "3948 | Advanced Science (Honours) / Arts"
+  },
+  {
+    "code": "3949",
+    "label": "3949 | Advanced Mathematics (Honours) / Arts"
+  },
+  {
+    "code": "3955",
+    "label": "3955 | Environmental Management / Arts"
+  },
+  {
+    "code": "3956",
+    "label": "3956 | Advanced Mathematics (Honours)"
+  },
+  {
+    "code": "3959",
+    "label": "3959 | Data Science and Decisions"
+  },
+  {
+    "code": "3961",
+    "label": "3961 | Engineering (Honours) / Arts"
+  },
+  {
+    "code": "3962",
+    "label": "3962 | Advanced Science (Honours)"
+  },
+  {
+    "code": "3964",
+    "label": "3964 | Information Systems (Co-op) (Honours)"
+  },
+  {
+    "code": "3965",
+    "label": "3965 | Environmental Management"
+  },
+  {
+    "code": "3966",
+    "label": "3966 | Life Sciences"
+  },
+  {
+    "code": "3970",
+    "label": "3970 | Science"
+  },
+  {
+    "code": "3979",
+    "label": "3979 | Information Systems"
+  },
+  {
+    "code": "3980",
+    "label": "3980 | Aviation (Flying)"
+  },
+  {
+    "code": "3981",
+    "label": "3981 | Aviation (Management)"
+  },
+  {
+    "code": "3987",
+    "label": "3987 | Science (International)"
+  },
+  {
+    "code": "3991",
+    "label": "3991 | Medical Science"
+  },
+  {
+    "code": "3997",
+    "label": "3997 | Advanced Science (Honours) / Law"
+  },
+  {
+    "code": "3998",
+    "label": "3998 | Advanced Mathematics (Honours) / Law"
+  },
+  {
+    "code": "3999",
+    "label": "3999 | Medicinal Chemistry (Honours)"
+  },
+  {
+    "code": "4033",
+    "label": "4033 | Social Work (Honours)"
+  },
+  {
+    "code": "4034",
+    "label": "4034 | Social Work (Honours) / Criminology & Criminal Justice"
+  },
+  {
+    "code": "4045",
+    "label": "4045 | Social Work (Honours) / Arts"
+  },
+  {
+    "code": "4046",
+    "label": "4046 | Social Work (Honours) / Social Sciences"
+  },
+  {
+    "code": "4053",
+    "label": "4053 | Arts / Education (Secondary)"
+  },
+  {
+    "code": "4056",
+    "label": "4056 | Education (Secondary)"
+  },
+  {
+    "code": "4058",
+    "label": "4058 | Economics / Education (Secondary)"
+  },
+  {
+    "code": "4067",
+    "label": "4067 | Design / Education (Secondary)"
+  },
+  {
+    "code": "4068",
+    "label": "4068 | Fine Arts / Education (Secondary)"
+  },
+  {
+    "code": "4076",
+    "label": "4076 | Science / Education (Secondary)"
+  },
+  {
+    "code": "4400",
+    "label": "4400 | Arts"
+  },
+  {
+    "code": "4405",
+    "label": "4405 | Business"
+  },
+  {
+    "code": "4410",
+    "label": "4410 | Science"
+  },
+  {
+    "code": "4427",
+    "label": "4427 | Computing and Cyber Security"
+  },
+  {
+    "code": "4430",
+    "label": "4430 | Technology (Aeronautical Eng)"
+  },
+  {
+    "code": "4461",
+    "label": "4461 | Arts (CDF)"
+  },
+  {
+    "code": "4462",
+    "label": "4462 | Business (CDF)"
+  },
+  {
+    "code": "4463",
+    "label": "4463 | Science (CDF)"
+  },
+  {
+    "code": "4468",
+    "label": "4468 | Tech Aero Engineering (CDF)"
+  },
+  {
+    "code": "4470",
+    "label": "4470 | Computing and Cyber Security (CDF)"
+  },
+  {
+    "code": "4471",
+    "label": "4471 | Electrical Engineering (Honours)"
+  },
+  {
+    "code": "4472",
+    "label": "4472 | Aeronautical Engineering (Honours)"
+  },
+  {
+    "code": "4473",
+    "label": "4473 | Civil Engineering (Honours)"
+  },
+  {
+    "code": "4474",
+    "label": "4474 | Mechanical Engineering (Honours)"
+  },
+  {
+    "code": "4475",
+    "label": "4475 | Electrical Engineering (Honours) (CDF)"
+  },
+  {
+    "code": "4476",
+    "label": "4476 | Aeronautical Engineering (Honours) (CDF)"
+  },
+  {
+    "code": "4477",
+    "label": "4477 | Civil Engineering (Honours) (CDF)"
+  },
+  {
+    "code": "4478",
+    "label": "4478 | Mechanical Engineering (Honours) (CDF)"
+  },
+  {
+    "code": "4484",
+    "label": "4484 | Naval Architecture (Honours)"
+  },
+  {
+    "code": "4485",
+    "label": "4485 | Naval Architecture (Honours) (CDF)"
+  },
+  {
+    "code": "4701",
+    "label": "4701 | Law"
+  },
+  {
+    "code": "4702",
+    "label": "4702 | Law (Honours)"
+  },
+  {
+    "code": "4706",
+    "label": "4706 | City Planning (Honours) / Law"
+  },
+  {
+    "code": "4721",
+    "label": "4721 | Psychology (Honours) / Law"
+  },
+  {
+    "code": "4722",
+    "label": "4722 | Psychological Science / Law"
+  },
+  {
+    "code": "4733",
+    "label": "4733 | Commerce / Law"
+  },
+  {
+    "code": "4737",
+    "label": "4737 | Actuarial Studies / Law"
+  },
+  {
+    "code": "4744",
+    "label": "4744 | Economics / Law"
+  },
+  {
+    "code": "4755",
+    "label": "4755 | Medicinal Chemistry (Honours) / Law"
+  },
+  {
+    "code": "4763",
+    "label": "4763 | Criminology & Criminal Justice / Law"
+  },
+  {
+    "code": "4770",
+    "label": "4770 | Science / Law"
+  },
+  {
+    "code": "4772",
+    "label": "4772 | Science and Business / Law"
+  },
+  {
+    "code": "4782",
+    "label": "4782 | Arts / Law"
+  },
+  {
+    "code": "4787",
+    "label": "4787 | Social Work (Honours) / Law"
+  },
+  {
+    "code": "4795",
+    "label": "4795 | Data Science and Decisions / Law"
+  },
+  {
+    "code": "4797",
+    "label": "4797 | Politics, Philosophy and Economics / Law"
+  },
+  {
+    "code": "4825",
+    "label": "4825 | Design"
+  },
+  {
+    "code": "4830",
+    "label": "4830 | Fine Arts"
+  },
+  {
+    "code": "4831",
+    "label": "4831 | Fine Arts / Arts"
+  },
+  {
+    "code": "4873",
+    "label": "4873 | Social Sciences / Law"
+  },
+  {
+    "code": "4875",
+    "label": "4875 | Media / Law"
+  },
+  {
+    "code": "4877",
+    "label": "4877 | Fine Arts / Law"
+  }
+]

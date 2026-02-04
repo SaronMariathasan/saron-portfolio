@@ -1,0 +1,1714 @@
+[
+  {
+    "code": "ACCTA1",
+    "label": "ACCTA1 | Accounting"
+  },
+  {
+    "code": "ACCTA2",
+    "label": "ACCTA2 | Accounting"
+  },
+  {
+    "code": "ACCTAH",
+    "label": "ACCTAH | Accounting"
+  },
+  {
+    "code": "ACCTB1",
+    "label": "ACCTB1 | Accounting Co-op"
+  },
+  {
+    "code": "ACCTB2",
+    "label": "ACCTB2 | Accounting"
+  },
+  {
+    "code": "ACHMA1",
+    "label": "ACHMA1 | Chemistry"
+  },
+  {
+    "code": "ACTLAH",
+    "label": "ACTLAH | Actuarial Studies"
+  },
+  {
+    "code": "ACTLE1",
+    "label": "ACTLE1 | Actuarial Risk Management and Analytics"
+  },
+  {
+    "code": "AENGA1",
+    "label": "AENGA1 | English and Media Studies"
+  },
+  {
+    "code": "AEROAH",
+    "label": "AEROAH | Aerospace Engineering"
+  },
+  {
+    "code": "AEROD1",
+    "label": "AEROD1 | Aerospace Engineering"
+  },
+  {
+    "code": "AGOCA1",
+    "label": "AGOCA1 | Geography"
+  },
+  {
+    "code": "AGOCB1",
+    "label": "AGOCB1 | Oceanography"
+  },
+  {
+    "code": "AHISA1",
+    "label": "AHISA1 | History"
+  },
+  {
+    "code": "AINDA1",
+    "label": "AINDA1 | Indonesian Studies"
+  },
+  {
+    "code": "AMATA1",
+    "label": "AMATA1 | Mathematics and Statistics"
+  },
+  {
+    "code": "ANATA1",
+    "label": "ANATA1 | Anatomy"
+  },
+  {
+    "code": "ANATB2",
+    "label": "ANATB2 | Anatomy"
+  },
+  {
+    "code": "ANATE1",
+    "label": "ANATE1 | Human Anatomy"
+  },
+  {
+    "code": "APHYA1",
+    "label": "APHYA1 | Physics"
+  },
+  {
+    "code": "APOLA1",
+    "label": "APOLA1 | International & Pol. Studies"
+  },
+  {
+    "code": "ARCYBH",
+    "label": "ARCYBH | Palaeoscience"
+  },
+  {
+    "code": "ARTHB2",
+    "label": "ARTHB2 | Art History and Theory"
+  },
+  {
+    "code": "ASIAB1",
+    "label": "ASIAB1 | Asian Studies"
+  },
+  {
+    "code": "ASIAB2",
+    "label": "ASIAB2 | Asian Studies"
+  },
+  {
+    "code": "ASIABH",
+    "label": "ASIABH | Asian Studies"
+  },
+  {
+    "code": "ATSIC1",
+    "label": "ATSIC1 | Indigenous Studies"
+  },
+  {
+    "code": "ATSIC2",
+    "label": "ATSIC2 | Indigenous Studies"
+  },
+  {
+    "code": "ATSID2",
+    "label": "ATSID2 | Indigenous Studies (Extended)"
+  },
+  {
+    "code": "AUSTB2",
+    "label": "AUSTB2 | Australian Studies"
+  },
+  {
+    "code": "AVIAAH",
+    "label": "AVIAAH | Aviation"
+  },
+  {
+    "code": "BABSBH",
+    "label": "BABSBH | Bioinformatics"
+  },
+  {
+    "code": "BINFAH",
+    "label": "BINFAH | Bioinformatics Engineering"
+  },
+  {
+    "code": "BINFB1",
+    "label": "BINFB1 | Bioinformatics"
+  },
+  {
+    "code": "BINFBH",
+    "label": "BINFBH | Computational Biology"
+  },
+  {
+    "code": "BINFC1",
+    "label": "BINFC1 | Bioinformatics Engineering"
+  },
+  {
+    "code": "BIOCC1",
+    "label": "BIOCC1 | Genetics"
+  },
+  {
+    "code": "BIOCD2",
+    "label": "BIOCD2 | Molecular Biology"
+  },
+  {
+    "code": "BIOCFH",
+    "label": "BIOCFH | Molecular and Cell Biology"
+  },
+  {
+    "code": "BIOCG1",
+    "label": "BIOCG1 | Genetics"
+  },
+  {
+    "code": "BIOCGH",
+    "label": "BIOCGH | Genetics"
+  },
+  {
+    "code": "BIOCH1",
+    "label": "BIOCH1 | Molecular Biology"
+  },
+  {
+    "code": "BIOCI1",
+    "label": "BIOCI1 | Molecular Genetics"
+  },
+  {
+    "code": "BIOCL1",
+    "label": "BIOCL1 | Molecular and Cell Biology"
+  },
+  {
+    "code": "BIOCM1",
+    "label": "BIOCM1 | Molecular and Cell Biology"
+  },
+  {
+    "code": "BIOSD2",
+    "label": "BIOSD2 | Biology"
+  },
+  {
+    "code": "BIOSG1",
+    "label": "BIOSG1 | Ecology"
+  },
+  {
+    "code": "BIOSJ1",
+    "label": "BIOSJ1 | Biology"
+  },
+  {
+    "code": "BIOSKH",
+    "label": "BIOSKH | Biology"
+  },
+  {
+    "code": "BIOSLH",
+    "label": "BIOSLH | Ecology"
+  },
+  {
+    "code": "BIOTA1",
+    "label": "BIOTA1 | Biotechnology"
+  },
+  {
+    "code": "BIOTB1",
+    "label": "BIOTB1 | Biotechnology"
+  },
+  {
+    "code": "BIOTBH",
+    "label": "BIOTBH | Biotechnology"
+  },
+  {
+    "code": "BLDGA2",
+    "label": "BLDGA2 | Construction Management and Property"
+  },
+  {
+    "code": "BLDGAH",
+    "label": "BLDGAH | Property Development"
+  },
+  {
+    "code": "BLDGBH",
+    "label": "BLDGBH | Quantity Surveying"
+  },
+  {
+    "code": "BLDGCH",
+    "label": "BLDGCH | Building"
+  },
+  {
+    "code": "BLDGDH",
+    "label": "BLDGDH | Construction Management & Property"
+  },
+  {
+    "code": "CEICAH",
+    "label": "CEICAH | Chemical Engineering"
+  },
+  {
+    "code": "CEICBH",
+    "label": "CEICBH | Industrial Chemistry"
+  },
+  {
+    "code": "CEICD1",
+    "label": "CEICD1 | Chemical Product Engineering"
+  },
+  {
+    "code": "CEICDH",
+    "label": "CEICDH | Chemical Product Engineering"
+  },
+  {
+    "code": "CEICM1",
+    "label": "CEICM1 | Chemical Engineering"
+  },
+  {
+    "code": "CHEMA1",
+    "label": "CHEMA1 | Chemistry"
+  },
+  {
+    "code": "CHEMB1",
+    "label": "CHEMB1 | Chemistry"
+  },
+  {
+    "code": "CHEMD2",
+    "label": "CHEMD2 | Chemistry"
+  },
+  {
+    "code": "CHEMFH",
+    "label": "CHEMFH | Chemistry"
+  },
+  {
+    "code": "CHEMJ1",
+    "label": "CHEMJ1 | Biological Chemistry"
+  },
+  {
+    "code": "CHINA1",
+    "label": "CHINA1 | Chinese Studies"
+  },
+  {
+    "code": "CHINB1",
+    "label": "CHINB1 | Advanced Chinese Studies"
+  },
+  {
+    "code": "CHINBH",
+    "label": "CHINBH | Chinese Studies"
+  },
+  {
+    "code": "CHINE1",
+    "label": "CHINE1 | Chinese Studies"
+  },
+  {
+    "code": "CHINE2",
+    "label": "CHINE2 | Chinese Studies"
+  },
+  {
+    "code": "CHINF1",
+    "label": "CHINF1 | Advanced Chinese Studies"
+  },
+  {
+    "code": "CHINF2",
+    "label": "CHINF2 | Advanced Chinese Studies"
+  },
+  {
+    "code": "CLIMA2",
+    "label": "CLIMA2 | Climate Science"
+  },
+  {
+    "code": "CLIMB1",
+    "label": "CLIMB1 | Climate Systems Science"
+  },
+  {
+    "code": "CLIMC1",
+    "label": "CLIMC1 | Climate Dynamics"
+  },
+  {
+    "code": "CLIMDH",
+    "label": "CLIMDH | Climate Science"
+  },
+  {
+    "code": "CODEA2",
+    "label": "CODEA2 | Computational Design"
+  },
+  {
+    "code": "CODEB1",
+    "label": "CODEB1 | Computational Design"
+  },
+  {
+    "code": "COMDF1",
+    "label": "COMDF1 | Global Development"
+  },
+  {
+    "code": "COMDF2",
+    "label": "COMDF2 | Global Development"
+  },
+  {
+    "code": "COMDFH",
+    "label": "COMDFH | Global Development"
+  },
+  {
+    "code": "COMMJ1",
+    "label": "COMMJ1 | Business Analytics"
+  },
+  {
+    "code": "COMMJ2",
+    "label": "COMMJ2 | Business Analytics"
+  },
+  {
+    "code": "COMPA1",
+    "label": "COMPA1 | Computer Science"
+  },
+  {
+    "code": "COMPAH",
+    "label": "COMPAH | Computer Science"
+  },
+  {
+    "code": "COMPBH",
+    "label": "COMPBH | Computer Engineering"
+  },
+  {
+    "code": "COMPCH",
+    "label": "COMPCH | Computer Science"
+  },
+  {
+    "code": "COMPD1",
+    "label": "COMPD1 | Computer Science (Database Systems)"
+  },
+  {
+    "code": "COMPE1",
+    "label": "COMPE1 | Computer Science (eCommerce Systems)"
+  },
+  {
+    "code": "COMPF1",
+    "label": "COMPF1 | Computer Engineering"
+  },
+  {
+    "code": "COMPI1",
+    "label": "COMPI1 | Computer Science (Artificial Intelligence)"
+  },
+  {
+    "code": "COMPIH",
+    "label": "COMPIH | Artificial Intelligence"
+  },
+  {
+    "code": "COMPJ1",
+    "label": "COMPJ1 | Computer Science (Programming Languages)"
+  },
+  {
+    "code": "COMPN1",
+    "label": "COMPN1 | Computer Science (Computer Networks)"
+  },
+  {
+    "code": "COMPS1",
+    "label": "COMPS1 | Computer Science (Embedded Systems)"
+  },
+  {
+    "code": "COMPY1",
+    "label": "COMPY1 | Computer Science (Security Engineering)"
+  },
+  {
+    "code": "COMPYH",
+    "label": "COMPYH | Security Engineering"
+  },
+  {
+    "code": "COMPZ1",
+    "label": "COMPZ1 | Computational Data Science"
+  },
+  {
+    "code": "CRIMBH",
+    "label": "CRIMBH | Criminology& Criminal Justice"
+  },
+  {
+    "code": "CRIMC1",
+    "label": "CRIMC1 | Criminology"
+  },
+  {
+    "code": "CRIMC2",
+    "label": "CRIMC2 | Criminology"
+  },
+  {
+    "code": "CRWTA1",
+    "label": "CRWTA1 | Creative Writing"
+  },
+  {
+    "code": "CRWTA2",
+    "label": "CRWTA2 | Creative Writing"
+  },
+  {
+    "code": "CRWTWH",
+    "label": "CRWTWH | Creative Writing"
+  },
+  {
+    "code": "CVENAH",
+    "label": "CVENAH | Civil Engineering"
+  },
+  {
+    "code": "CVENBH",
+    "label": "CVENBH | Environmental Engineering"
+  },
+  {
+    "code": "CVENJ1",
+    "label": "CVENJ1 | Civil Engineering"
+  },
+  {
+    "code": "CVENK1",
+    "label": "CVENK1 | Environmental Engineering"
+  },
+  {
+    "code": "DANCBH",
+    "label": "DANCBH | Dance Studies"
+  },
+  {
+    "code": "DARTC1",
+    "label": "DARTC1 | Animation and Moving Image"
+  },
+  {
+    "code": "DARTC2",
+    "label": "DARTC2 | Animation and Moving Image"
+  },
+  {
+    "code": "DARTD1",
+    "label": "DARTD1 | Art Theory"
+  },
+  {
+    "code": "DARTE1",
+    "label": "DARTE1 | Visual Arts"
+  },
+  {
+    "code": "DARTE2",
+    "label": "DARTE2 | Visual Arts"
+  },
+  {
+    "code": "DDESB1",
+    "label": "DDESB1 | Integrated Design"
+  },
+  {
+    "code": "DDESB2",
+    "label": "DDESB2 | Integrated Design"
+  },
+  {
+    "code": "DDESC2",
+    "label": "DDESC2 | Graphic Design"
+  },
+  {
+    "code": "ECONA1",
+    "label": "ECONA1 | Economics"
+  },
+  {
+    "code": "ECONA2",
+    "label": "ECONA2 | Economics"
+  },
+  {
+    "code": "ECONAH",
+    "label": "ECONAH | Economics"
+  },
+  {
+    "code": "ECONEH",
+    "label": "ECONEH | Econometrics"
+  },
+  {
+    "code": "ECONF1",
+    "label": "ECONF1 | Business Economics"
+  },
+  {
+    "code": "ECONF2",
+    "label": "ECONF2 | Business Economics"
+  },
+  {
+    "code": "ECONFH",
+    "label": "ECONFH | Business Economics"
+  },
+  {
+    "code": "ECONL1",
+    "label": "ECONL1 | Business Data Science"
+  },
+  {
+    "code": "ECONO1",
+    "label": "ECONO1 | Behavioural Economics"
+  },
+  {
+    "code": "ECONO2",
+    "label": "ECONO2 | Behavioural Economics"
+  },
+  {
+    "code": "ECONT1",
+    "label": "ECONT1 | Data Analytics and Econometrics"
+  },
+  {
+    "code": "ECONU1",
+    "label": "ECONU1 | Economic Policy and Society"
+  },
+  {
+    "code": "ECONV1",
+    "label": "ECONV1 | Macroeconomics and Financial Markets"
+  },
+  {
+    "code": "ELECAH",
+    "label": "ELECAH | Electrical Engineering"
+  },
+  {
+    "code": "ELECC1",
+    "label": "ELECC1 | Quantum Engineering"
+  },
+  {
+    "code": "ELECCH",
+    "label": "ELECCH | Quantum Engineering"
+  },
+  {
+    "code": "ELECF1",
+    "label": "ELECF1 | Electrical Engineering"
+  },
+  {
+    "code": "ENGGA2",
+    "label": "ENGGA2 | Humanitarian Engineering"
+  },
+  {
+    "code": "ENGGC1",
+    "label": "ENGGC1 | Water Process Engineering"
+  },
+  {
+    "code": "ENGGD1",
+    "label": "ENGGD1 | Energy Engineering"
+  },
+  {
+    "code": "ENGLC1",
+    "label": "ENGLC1 | English"
+  },
+  {
+    "code": "ENGLC2",
+    "label": "ENGLC2 | English"
+  },
+  {
+    "code": "ENGLDH",
+    "label": "ENGLDH | English"
+  },
+  {
+    "code": "ENVPE1",
+    "label": "ENVPE1 | Environmental Humanities"
+  },
+  {
+    "code": "ENVPE2",
+    "label": "ENVPE2 | Environmental Humanities"
+  },
+  {
+    "code": "ENVPEH",
+    "label": "ENVPEH | Environmental Humanities"
+  },
+  {
+    "code": "ENVST1",
+    "label": "ENVST1 | Environmental Chemistry"
+  },
+  {
+    "code": "ENVSUH",
+    "label": "ENVSUH | Environmental Management"
+  },
+  {
+    "code": "EUROBH",
+    "label": "EUROBH | European Studies"
+  },
+  {
+    "code": "EUROC1",
+    "label": "EUROC1 | European Studies"
+  },
+  {
+    "code": "EUROC2",
+    "label": "EUROC2 | European Studies"
+  },
+  {
+    "code": "FILMB1",
+    "label": "FILMB1 | Film Studies"
+  },
+  {
+    "code": "FILMB2",
+    "label": "FILMB2 | Film Studies"
+  },
+  {
+    "code": "FILMBH",
+    "label": "FILMBH | Film Studies"
+  },
+  {
+    "code": "FINSA1",
+    "label": "FINSA1 | Finance"
+  },
+  {
+    "code": "FINSA2",
+    "label": "FINSA2 | Finance"
+  },
+  {
+    "code": "FINSAH",
+    "label": "FINSAH | Finance"
+  },
+  {
+    "code": "FINSBH",
+    "label": "FINSBH | Finance Co-op Honours"
+  },
+  {
+    "code": "FINSD1",
+    "label": "FINSD1 | Finance Co-op"
+  },
+  {
+    "code": "FINSR1",
+    "label": "FINSR1 | Financial Technology"
+  },
+  {
+    "code": "FINSR2",
+    "label": "FINSR2 | Financial Technology"
+  },
+  {
+    "code": "FOODA2",
+    "label": "FOODA2 | Humanitarian Science and Technology"
+  },
+  {
+    "code": "FOODB1",
+    "label": "FOODB1 | Food Engineering"
+  },
+  {
+    "code": "FOODH1",
+    "label": "FOODH1 | Food Science"
+  },
+  {
+    "code": "FOODJH",
+    "label": "FOODJH | Food Science and Technology"
+  },
+  {
+    "code": "FOODKH",
+    "label": "FOODKH | Food Science and Nutrition"
+  },
+  {
+    "code": "FRENA1",
+    "label": "FRENA1 | French Studies"
+  },
+  {
+    "code": "FRENBH",
+    "label": "FRENBH | French Studies"
+  },
+  {
+    "code": "FRENE1",
+    "label": "FRENE1 | Advanced French Studies"
+  },
+  {
+    "code": "FRENF1",
+    "label": "FRENF1 | French Studies"
+  },
+  {
+    "code": "FRENF2",
+    "label": "FRENF2 | French Studies"
+  },
+  {
+    "code": "FRENG1",
+    "label": "FRENG1 | Advanced French Studies"
+  },
+  {
+    "code": "FRENG2",
+    "label": "FRENG2 | Advanced French Studies"
+  },
+  {
+    "code": "GEOGG1",
+    "label": "GEOGG1 | Geography"
+  },
+  {
+    "code": "GEOGH2",
+    "label": "GEOGH2 | Physical Geography"
+  },
+  {
+    "code": "GEOGK1",
+    "label": "GEOGK1 | Geographical Studies"
+  },
+  {
+    "code": "GEOGK2",
+    "label": "GEOGK2 | Geographical Studies"
+  },
+  {
+    "code": "GEOGS2",
+    "label": "GEOGS2 | Geography"
+  },
+  {
+    "code": "GEOGTH",
+    "label": "GEOGTH | Geography"
+  },
+  {
+    "code": "GEOLF2",
+    "label": "GEOLF2 | Geology"
+  },
+  {
+    "code": "GEOLMH",
+    "label": "GEOLMH | Geology"
+  },
+  {
+    "code": "GEOLS1",
+    "label": "GEOLS1 | Earth Science"
+  },
+  {
+    "code": "GERSA1",
+    "label": "GERSA1 | German Studies"
+  },
+  {
+    "code": "GERSBH",
+    "label": "GERSBH | German Studies"
+  },
+  {
+    "code": "GERSF1",
+    "label": "GERSF1 | German Studies"
+  },
+  {
+    "code": "GERSF2",
+    "label": "GERSF2 | German Studies"
+  },
+  {
+    "code": "GMATDH",
+    "label": "GMATDH | Surveying"
+  },
+  {
+    "code": "GMATF1",
+    "label": "GMATF1 | Surveying Engineering"
+  },
+  {
+    "code": "GREKC2",
+    "label": "GREKC2 | Modern Greek Studies"
+  },
+  {
+    "code": "HISTCH",
+    "label": "HISTCH | History"
+  },
+  {
+    "code": "HISTD1",
+    "label": "HISTD1 | History"
+  },
+  {
+    "code": "HISTD2",
+    "label": "HISTD2 | History"
+  },
+  {
+    "code": "HUMSA1",
+    "label": "HUMSA1 | Arts & Soc Sc (Indigenous)"
+  },
+  {
+    "code": "HUMSC1",
+    "label": "HUMSC1 | Law"
+  },
+  {
+    "code": "IBUSA1",
+    "label": "IBUSA1 | International Business"
+  },
+  {
+    "code": "IBUSA2",
+    "label": "IBUSA2 | International Business"
+  },
+  {
+    "code": "IDESA2",
+    "label": "IDESA2 | Industrial Design "
+  },
+  {
+    "code": "IDESF1",
+    "label": "IDESF1 | Industrial Design"
+  },
+  {
+    "code": "INDOA1",
+    "label": "INDOA1 | Indonesian Studies"
+  },
+  {
+    "code": "INDOC2",
+    "label": "INDOC2 | Indonesian Studies"
+  },
+  {
+    "code": "INFSA1",
+    "label": "INFSA1 | Information Systems"
+  },
+  {
+    "code": "INFSA2",
+    "label": "INFSA2 | Information Systems"
+  },
+  {
+    "code": "INFSAH",
+    "label": "INFSAH | Information Systems"
+  },
+  {
+    "code": "INFSB1",
+    "label": "INFSB1 | Information Systems Co-op"
+  },
+  {
+    "code": "INSTC1",
+    "label": "INSTC1 | International Studies"
+  },
+  {
+    "code": "ITALB2",
+    "label": "ITALB2 | Italian Studies"
+  },
+  {
+    "code": "JAPNA1",
+    "label": "JAPNA1 | Japanese Studies"
+  },
+  {
+    "code": "JAPNDH",
+    "label": "JAPNDH | Japanese Studies"
+  },
+  {
+    "code": "JAPNE1",
+    "label": "JAPNE1 | Advanced Japanese Studies"
+  },
+  {
+    "code": "JAPNF1",
+    "label": "JAPNF1 | Japanese Studies"
+  },
+  {
+    "code": "JAPNF2",
+    "label": "JAPNF2 | Japanese Studies"
+  },
+  {
+    "code": "JAPNG1",
+    "label": "JAPNG1 | Advanced Japanese Studies"
+  },
+  {
+    "code": "JAPNG2",
+    "label": "JAPNG2 | Advanced Japanese Studies"
+  },
+  {
+    "code": "KORECH",
+    "label": "KORECH | Korean Studies"
+  },
+  {
+    "code": "KORED1",
+    "label": "KORED1 | Korean Studies"
+  },
+  {
+    "code": "KOREE1",
+    "label": "KOREE1 | Advanced Korean Studies"
+  },
+  {
+    "code": "KOREF1",
+    "label": "KOREF1 | Korean Studies"
+  },
+  {
+    "code": "KOREF2",
+    "label": "KOREF2 | Korean Studies"
+  },
+  {
+    "code": "KOREG1",
+    "label": "KOREG1 | Advanced Korean Studies"
+  },
+  {
+    "code": "KOREG2",
+    "label": "KOREG2 | Advanced Korean Studies"
+  },
+  {
+    "code": "LANDA2",
+    "label": "LANDA2 | Landscape Architecture"
+  },
+  {
+    "code": "LEGLC2",
+    "label": "LEGLC2 | Legal Studies"
+  },
+  {
+    "code": "LINGC1",
+    "label": "LINGC1 | Linguistics"
+  },
+  {
+    "code": "LINGC2",
+    "label": "LINGC2 | Linguistics"
+  },
+  {
+    "code": "LINGCH",
+    "label": "LINGCH | Linguistics"
+  },
+  {
+    "code": "MANFBH",
+    "label": "MANFBH | Mechanical and Manufacturing Engineering"
+  },
+  {
+    "code": "MARKA1",
+    "label": "MARKA1 | Marketing"
+  },
+  {
+    "code": "MARKA2",
+    "label": "MARKA2 | Marketing"
+  },
+  {
+    "code": "MARKAH",
+    "label": "MARKAH | Marketing"
+  },
+  {
+    "code": "MARKB1",
+    "label": "MARKB1 | Marketing Co-op"
+  },
+  {
+    "code": "MATHA1",
+    "label": "MATHA1 | Applied Mathematics"
+  },
+  {
+    "code": "MATHAH",
+    "label": "MATHAH | Applied Mathematics"
+  },
+  {
+    "code": "MATHB2",
+    "label": "MATHB2 | Mathematics for Engineers"
+  },
+  {
+    "code": "MATHC2",
+    "label": "MATHC2 | Mathematics"
+  },
+  {
+    "code": "MATHD2",
+    "label": "MATHD2 | Statistics"
+  },
+  {
+    "code": "MATHE1",
+    "label": "MATHE1 | Quantitative Data Science"
+  },
+  {
+    "code": "MATHEH",
+    "label": "MATHEH | Quantitative Data Science"
+  },
+  {
+    "code": "MATHJ1",
+    "label": "MATHJ1 | Mathematics"
+  },
+  {
+    "code": "MATHK1",
+    "label": "MATHK1 | Statistics"
+  },
+  {
+    "code": "MATHM1",
+    "label": "MATHM1 | Mathematics"
+  },
+  {
+    "code": "MATHN1",
+    "label": "MATHN1 | Physical Oceanography"
+  },
+  {
+    "code": "MATHNH",
+    "label": "MATHNH | Physical Oceanography"
+  },
+  {
+    "code": "MATHO1",
+    "label": "MATHO1 | Advanced Physical Oceanography"
+  },
+  {
+    "code": "MATHP1",
+    "label": "MATHP1 | Pure Mathematics"
+  },
+  {
+    "code": "MATHPH",
+    "label": "MATHPH | Pure Mathematics"
+  },
+  {
+    "code": "MATHT1",
+    "label": "MATHT1 | Statistics"
+  },
+  {
+    "code": "MATHTH",
+    "label": "MATHTH | Statistics"
+  },
+  {
+    "code": "MATHU1",
+    "label": "MATHU1 | Advanced Statistics"
+  },
+  {
+    "code": "MATHV1",
+    "label": "MATHV1 | Mathematics for Education"
+  },
+  {
+    "code": "MATSB1",
+    "label": "MATSB1 | Materials Science"
+  },
+  {
+    "code": "MATSCH",
+    "label": "MATSCH | Materials Science"
+  },
+  {
+    "code": "MATSE1",
+    "label": "MATSE1 | Materials Science and Engineering (Physical Metallurgy)"
+  },
+  {
+    "code": "MATSF1",
+    "label": "MATSF1 | Materials Science and Engineering (Functional Materials)"
+  },
+  {
+    "code": "MATSG1",
+    "label": "MATSG1 | Materials Science and Engineering (Process Metallurgy)"
+  },
+  {
+    "code": "MATSH1",
+    "label": "MATSH1 | Materials Science and Engineering (Materials Engineering)"
+  },
+  {
+    "code": "MATSJ1",
+    "label": "MATSJ1 | Materials Science and Engineering (Ceramic Engineering)"
+  },
+  {
+    "code": "MDCNAH",
+    "label": "MDCNAH | Clinical Artificial Intelligence"
+  },
+  {
+    "code": "MDCNBH",
+    "label": "MDCNBH | Clinical Artificial Intelligence (Extended Research) "
+  },
+  {
+    "code": "MDCNCH",
+    "label": "MDCNCH | Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNDH",
+    "label": "MDCNDH | Microbiology (Extended Research)"
+  },
+  {
+    "code": "MDCNEH",
+    "label": "MDCNEH | Genetics (Extended Research)"
+  },
+  {
+    "code": "MDCNFH",
+    "label": "MDCNFH | Psychiatry (Extended Research)"
+  },
+  {
+    "code": "MDCNGH",
+    "label": "MDCNGH | Surgery (Extended Research)"
+  },
+  {
+    "code": "MDCNHH",
+    "label": "MDCNHH | Medical Education (Extended Research) "
+  },
+  {
+    "code": "MDCNIH",
+    "label": "MDCNIH | Dermatology (Extended Research)"
+  },
+  {
+    "code": "MDCNJH",
+    "label": "MDCNJH | Rural and Remote Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNKH",
+    "label": "MDCNKH | Emergency Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNLH",
+    "label": "MDCNLH | Anaesthetics (Extended Research)"
+  },
+  {
+    "code": "MDCNMH",
+    "label": "MDCNMH | Pain Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNNH",
+    "label": "MDCNNH | Intensive Care Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNOH",
+    "label": "MDCNOH | General Practice (Extended Research)"
+  },
+  {
+    "code": "MDCNPH",
+    "label": "MDCNPH | Paediatrics and Child Health (Extended Research)"
+  },
+  {
+    "code": "MDCNQH",
+    "label": "MDCNQH | Palliative Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNRH",
+    "label": "MDCNRH | Addiction Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNSH",
+    "label": "MDCNSH | Sexual Health Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNTH",
+    "label": "MDCNTH | Ophthalmology (Extended Research)"
+  },
+  {
+    "code": "MDCNUH",
+    "label": "MDCNUH | Obstetrics and Gynaecology (Extended Research)"
+  },
+  {
+    "code": "MDCNVH",
+    "label": "MDCNVH | Radiology (Extended Research)"
+  },
+  {
+    "code": "MDCNWH",
+    "label": "MDCNWH | Medical Administration (Extended Research)"
+  },
+  {
+    "code": "MDCNXH",
+    "label": "MDCNXH | Rehabilitation Medicine (Extended Research)"
+  },
+  {
+    "code": "MDCNYH",
+    "label": "MDCNYH | Occupational and Environmental Medicine (Extended Research)"
+  },
+  {
+    "code": "MDIADH",
+    "label": "MDIADH | Communication & Journalism"
+  },
+  {
+    "code": "MDIAGH",
+    "label": "MDIAGH | Public Relations&Advertising"
+  },
+  {
+    "code": "MDIAHH",
+    "label": "MDIAHH | Screen and Sound Production"
+  },
+  {
+    "code": "MDIAN1",
+    "label": "MDIAN1 | Cinema Studies"
+  },
+  {
+    "code": "MDIAN2",
+    "label": "MDIAN2 | Cinema Studies"
+  },
+  {
+    "code": "MDIAO1",
+    "label": "MDIAO1 | Communication and Journalism"
+  },
+  {
+    "code": "MDIAO2",
+    "label": "MDIAO2 | Communication and Journalism"
+  },
+  {
+    "code": "MDIAQ1",
+    "label": "MDIAQ1 | Media Studies"
+  },
+  {
+    "code": "MDIAQ2",
+    "label": "MDIAQ2 | Media Studies"
+  },
+  {
+    "code": "MDIAR1",
+    "label": "MDIAR1 | Public Relations and Advertising"
+  },
+  {
+    "code": "MDIAR2",
+    "label": "MDIAR2 | Public Relations and Advertising"
+  },
+  {
+    "code": "MDIAT1",
+    "label": "MDIAT1 | Screen Production"
+  },
+  {
+    "code": "MDIAT2",
+    "label": "MDIAT2 | Screen Production"
+  },
+  {
+    "code": "MECHAH",
+    "label": "MECHAH | Mechanical Engineering"
+  },
+  {
+    "code": "MECHD1",
+    "label": "MECHD1 | Mechanical Engineering"
+  },
+  {
+    "code": "MECHE1",
+    "label": "MECHE1 | Mechanical and Manufacturing Engineering"
+  },
+  {
+    "code": "MECTBH",
+    "label": "MECTBH | Media,Culture & Technology"
+  },
+  {
+    "code": "MECTC1",
+    "label": "MECTC1 | Media, Culture and Technology"
+  },
+  {
+    "code": "MECTC2",
+    "label": "MECTC2 | Media, Culture and Technology"
+  },
+  {
+    "code": "MGMTA2",
+    "label": "MGMTA2 | Management"
+  },
+  {
+    "code": "MGMTH1",
+    "label": "MGMTH1 | Human Resource Management"
+  },
+  {
+    "code": "MGMTH2",
+    "label": "MGMTH2 | Human Resource Management"
+  },
+  {
+    "code": "MGMTJ1",
+    "label": "MGMTJ1 | Innovation, Strategy and Entrepreneurship"
+  },
+  {
+    "code": "MGMTJ2",
+    "label": "MGMTJ2 | Innovation, Strategy and Entrepreneurship"
+  },
+  {
+    "code": "MICRB1",
+    "label": "MICRB1 | Microbiology"
+  },
+  {
+    "code": "MICRE1",
+    "label": "MICRE1 | Microbiology"
+  },
+  {
+    "code": "MICRFH",
+    "label": "MICRFH | Microbiology"
+  },
+  {
+    "code": "MICRH1",
+    "label": "MICRH1 | Medical Microbiology"
+  },
+  {
+    "code": "MICRJ1",
+    "label": "MICRJ1 | Immunology"
+  },
+  {
+    "code": "MICRJ2",
+    "label": "MICRJ2 | Immunology"
+  },
+  {
+    "code": "MICRK1",
+    "label": "MICRK1 | Medical Immunology"
+  },
+  {
+    "code": "MINEAH",
+    "label": "MINEAH | Mining Engineering"
+  },
+  {
+    "code": "MINEC1",
+    "label": "MINEC1 | Mining Engineering"
+  },
+  {
+    "code": "MSCIH2",
+    "label": "MSCIH2 | Marine Science"
+  },
+  {
+    "code": "MSCIJH",
+    "label": "MSCIJH | Marine Science"
+  },
+  {
+    "code": "MSCIM1",
+    "label": "MSCIM1 | Marine and Coastal Science"
+  },
+  {
+    "code": "MTRNAH",
+    "label": "MTRNAH | Mechatronic Engineering"
+  },
+  {
+    "code": "MTRND1",
+    "label": "MTRND1 | Mechatronic Engineering"
+  },
+  {
+    "code": "MUSCBH",
+    "label": "MUSCBH | Music Studies"
+  },
+  {
+    "code": "MUSCJ1",
+    "label": "MUSCJ1 | Music Studies"
+  },
+  {
+    "code": "MUSCJ2",
+    "label": "MUSCJ2 | Music Studies"
+  },
+  {
+    "code": "MUSCK1",
+    "label": "MUSCK1 | Music Studies (Intensive)"
+  },
+  {
+    "code": "MUSCP1",
+    "label": "MUSCP1 | Music"
+  },
+  {
+    "code": "MUSCQ1",
+    "label": "MUSCQ1 | Music Creative Practice"
+  },
+  {
+    "code": "MUSCR1",
+    "label": "MUSCR1 | Music Pedagogy"
+  },
+  {
+    "code": "MUSCS1",
+    "label": "MUSCS1 | Music Sonic Arts"
+  },
+  {
+    "code": "NANOB1",
+    "label": "NANOB1 | Nanodevices"
+  },
+  {
+    "code": "NANOC1",
+    "label": "NANOC1 | Nanomaterials"
+  },
+  {
+    "code": "NEURA1",
+    "label": "NEURA1 | Neuroscience"
+  },
+  {
+    "code": "NEURB1",
+    "label": "NEURB1 | Neurobiology"
+  },
+  {
+    "code": "NEURBH",
+    "label": "NEURBH | Neuroscience"
+  },
+  {
+    "code": "NEURS1",
+    "label": "NEURS1 | Neuroscience"
+  },
+  {
+    "code": "PATHA1",
+    "label": "PATHA1 | Pathology"
+  },
+  {
+    "code": "PATHB1",
+    "label": "PATHB1 | Pathology"
+  },
+  {
+    "code": "PATHB2",
+    "label": "PATHB2 | Pathology"
+  },
+  {
+    "code": "PATHC1",
+    "label": "PATHC1 | Human Pathology"
+  },
+  {
+    "code": "PETRAH",
+    "label": "PETRAH | Petroleum Engineering"
+  },
+  {
+    "code": "PETRB1",
+    "label": "PETRB1 | Petroleum Engineering"
+  },
+  {
+    "code": "PHARA1",
+    "label": "PHARA1 | Pharmacology"
+  },
+  {
+    "code": "PHARB1",
+    "label": "PHARB1 | Pharmacology"
+  },
+  {
+    "code": "PHARB2",
+    "label": "PHARB2 | Pharmacology"
+  },
+  {
+    "code": "PHARC1",
+    "label": "PHARC1 | Medical Pharmacology"
+  },
+  {
+    "code": "PHCMAH",
+    "label": "PHCMAH | Infectious Disease (Extended Research)"
+  },
+  {
+    "code": "PHCMBH",
+    "label": "PHCMBH | Public Health Medicine (Extended Research)"
+  },
+  {
+    "code": "PHCMCH",
+    "label": "PHCMCH | Environmental Health Data Science "
+  },
+  {
+    "code": "PHILBH",
+    "label": "PHILBH | Philosophy"
+  },
+  {
+    "code": "PHILE1",
+    "label": "PHILE1 | Philosophy"
+  },
+  {
+    "code": "PHILE2",
+    "label": "PHILE2 | Philosophy"
+  },
+  {
+    "code": "PHSLA1",
+    "label": "PHSLA1 | Physiology"
+  },
+  {
+    "code": "PHSLB1",
+    "label": "PHSLB1 | Physiology"
+  },
+  {
+    "code": "PHSLB2",
+    "label": "PHSLB2 | Physiology"
+  },
+  {
+    "code": "PHSLC1",
+    "label": "PHSLC1 | Medical Physiology"
+  },
+  {
+    "code": "PHYSC1",
+    "label": "PHYSC1 | Advanced Physics"
+  },
+  {
+    "code": "PHYSC2",
+    "label": "PHYSC2 | Physics"
+  },
+  {
+    "code": "PHYSGH",
+    "label": "PHYSGH | Physics"
+  },
+  {
+    "code": "PHYSL1",
+    "label": "PHYSL1 | Physics"
+  },
+  {
+    "code": "POLSG1",
+    "label": "POLSG1 | Politics and International Relations"
+  },
+  {
+    "code": "POLSG2",
+    "label": "POLSG2 | Politics and International Relations"
+  },
+  {
+    "code": "POLSGH",
+    "label": "POLSGH | Politics and International Relations"
+  },
+  {
+    "code": "PSYCA1",
+    "label": "PSYCA1 | Psychology"
+  },
+  {
+    "code": "PSYCAH",
+    "label": "PSYCAH | Psychology"
+  },
+  {
+    "code": "PSYCD1",
+    "label": "PSYCD1 | Studies in Psychology"
+  },
+  {
+    "code": "PSYCM2",
+    "label": "PSYCM2 | Psychology"
+  },
+  {
+    "code": "REGZA1",
+    "label": "REGZA1 | Humanities (UPP)"
+  },
+  {
+    "code": "REGZB1",
+    "label": "REGZB1 | Science (UPP)"
+  },
+  {
+    "code": "REGZC1",
+    "label": "REGZC1 | Engineering (UPP)"
+  },
+  {
+    "code": "REGZD1",
+    "label": "REGZD1 | UNSW Prep Program 17-19 Arts"
+  },
+  {
+    "code": "REGZE1",
+    "label": "REGZE1 | UNSW Prep Program17-19 Science"
+  },
+  {
+    "code": "REGZF1",
+    "label": "REGZF1 | UNSW Prep Program 17-19 Eng"
+  },
+  {
+    "code": "REGZG1",
+    "label": "REGZG1 | UNSW Prep Prog 17-19 Business"
+  },
+  {
+    "code": "REGZH1",
+    "label": "REGZH1 | Business (UPP)"
+  },
+  {
+    "code": "SENGAH",
+    "label": "SENGAH | Software Engineering"
+  },
+  {
+    "code": "SENGD1",
+    "label": "SENGD1 | Software Engineering"
+  },
+  {
+    "code": "SOCACH",
+    "label": "SOCACH | Sociology & Anthropology"
+  },
+  {
+    "code": "SOCAD1",
+    "label": "SOCAD1 | Sociology and Anthropology"
+  },
+  {
+    "code": "SOCAD2",
+    "label": "SOCAD2 | Sociology and Anthropology"
+  },
+  {
+    "code": "SOLAAH",
+    "label": "SOLAAH | Photovoltaics and Solar Energy"
+  },
+  {
+    "code": "SOLABH",
+    "label": "SOLABH | Renewable Energy Engineering"
+  },
+  {
+    "code": "SOLAC1",
+    "label": "SOLAC1 | Photovoltaics and Solar Energy"
+  },
+  {
+    "code": "SOLAD1",
+    "label": "SOLAD1 | Renewable Energy Engineering"
+  },
+  {
+    "code": "SOMSAH",
+    "label": "SOMSAH | Medical Science"
+  },
+  {
+    "code": "SOMSBH",
+    "label": "SOMSBH | Physiology"
+  },
+  {
+    "code": "SOMSCH",
+    "label": "SOMSCH | Pharmacology"
+  },
+  {
+    "code": "SOMSDH",
+    "label": "SOMSDH | Pathology"
+  },
+  {
+    "code": "SOMSEH",
+    "label": "SOMSEH | Anatomy"
+  },
+  {
+    "code": "SOMSFH",
+    "label": "SOMSFH | Exercise Physiology"
+  },
+  {
+    "code": "SOMSGH",
+    "label": "SOMSGH | Anatomy (Extended Research)"
+  },
+  {
+    "code": "SOMSHH",
+    "label": "SOMSHH | Pathology (Extended Research)"
+  },
+  {
+    "code": "SOMSIH",
+    "label": "SOMSIH | Pharmacology (Extended Research)"
+  },
+  {
+    "code": "SOMSJH",
+    "label": "SOMSJH | Physiology (Extended Research)"
+  },
+  {
+    "code": "SOMSKH",
+    "label": "SOMSKH | Sports and Exercise (Extended Research)"
+  },
+  {
+    "code": "SOSSB2",
+    "label": "SOSSB2 | International Political Economy"
+  },
+  {
+    "code": "SOSSC2",
+    "label": "SOSSC2 | Policy, Power and Government"
+  },
+  {
+    "code": "SOSSD2",
+    "label": "SOSSD2 | Security Studies"
+  },
+  {
+    "code": "SPANEH",
+    "label": "SPANEH | Spanish Studies"
+  },
+  {
+    "code": "SPANI1",
+    "label": "SPANI1 | Spanish Studies"
+  },
+  {
+    "code": "SPANI2",
+    "label": "SPANI2 | Spanish Studies"
+  },
+  {
+    "code": "SPANJ1",
+    "label": "SPANJ1 | Spanish Studies"
+  },
+  {
+    "code": "TABLA2",
+    "label": "TABLA2 | Business Law"
+  },
+  {
+    "code": "TABLAH",
+    "label": "TABLAH | Taxation"
+  },
+  {
+    "code": "TABLC1",
+    "label": "TABLC1 | Taxation"
+  },
+  {
+    "code": "TABLC2",
+    "label": "TABLC2 | Taxation"
+  },
+  {
+    "code": "TABLLH",
+    "label": "TABLLH | Business Law"
+  },
+  {
+    "code": "TELEAH",
+    "label": "TELEAH | Telecommunications"
+  },
+  {
+    "code": "TELEE1",
+    "label": "TELEE1 | Telecommunications"
+  },
+  {
+    "code": "THSTBH",
+    "label": "THSTBH | Theatre & Perf Studies"
+  },
+  {
+    "code": "THSTC1",
+    "label": "THSTC1 | Theatre and Performance Studies"
+  },
+  {
+    "code": "THSTC2",
+    "label": "THSTC2 | Theatre and Performance Studies"
+  },
+  {
+    "code": "VISNA1",
+    "label": "VISNA1 | Vision Science"
+  },
+  {
+    "code": "VISNB2",
+    "label": "VISNB2 | Vision Science"
+  },
+  {
+    "code": "VISNBH",
+    "label": "VISNBH | Vision Science"
+  },
+  {
+    "code": "WOMSC2",
+    "label": "WOMSC2 | Gender Studies"
+  },
+  {
+    "code": "ZBUSA1",
+    "label": "ZBUSA1 | Business"
+  },
+  {
+    "code": "ZEITS1",
+    "label": "ZEITS1 | Aviation"
+  },
+  {
+    "code": "ZEITSH",
+    "label": "ZEITSH | Aviation"
+  },
+  {
+    "code": "ZHSSBH",
+    "label": "ZHSSBH | Indonesian Studies"
+  },
+  {
+    "code": "ZHSSEH",
+    "label": "ZHSSEH | English and Media Studies"
+  },
+  {
+    "code": "ZHSSGH",
+    "label": "ZHSSGH | Human Geography"
+  },
+  {
+    "code": "ZHSSHH",
+    "label": "ZHSSHH | History"
+  },
+  {
+    "code": "ZHSSPH",
+    "label": "ZHSSPH | International and Political Studies"
+  },
+  {
+    "code": "ZITEK1",
+    "label": "ZITEK1 | Computer Science"
+  },
+  {
+    "code": "ZPEMAH",
+    "label": "ZPEMAH | Chemistry"
+  },
+  {
+    "code": "ZPEMGH",
+    "label": "ZPEMGH | Physical Geography"
+  },
+  {
+    "code": "ZPEMMH",
+    "label": "ZPEMMH | Mathematics and Statistics"
+  },
+  {
+    "code": "ZPEMO1",
+    "label": "ZPEMO1 | Oceanography"
+  },
+  {
+    "code": "ZPEMOH",
+    "label": "ZPEMOH | Oceanography"
+  },
+  {
+    "code": "ZPEMPH",
+    "label": "ZPEMPH | Physics"
+  }
+]

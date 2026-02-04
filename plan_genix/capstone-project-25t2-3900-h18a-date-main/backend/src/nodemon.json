@@ -1,0 +1,4 @@
+{
+    "ignore": ["data.json", "dataStore.json", "handbook-scraper/data/scrapers/coursesFormattedRaw.json"]
+
+}
