@@ -1,6 +1,7 @@
 # Saron Mariathasan Portfolio
 This repository contains scripts and programs written in a variety of languages, some as part of my university coursework and others for personal enjoyment. The included projects are:
 
+- PlanGenix- UNSW Degree Planning Tool (Mariathasan S., Kapoor A., Nguyen J., Faisal M., Nair A. M., McCredie R.) (JavaScript)
 - Single Byte XOR Decoder (Python)
 - Repeating Key XOR Cipher & Decoder (Python)
 - DNS Client and Server (Java)
